@@ -1,5 +1,7 @@
 # News Scraper
 
+[Link to the website](https://news-scraper.streamlit.app)
+
 This Python code defines a Streamlit web app for scraping news articles from a specific website based on user-selected date parameters. The app includes input fields for choosing the ``year``, ``month``, and ``day`` of the news, along with an option to toggle between English and Hindi ``languages``. Users can click a "Scrap" button to initiate the scraping process.
 
 Upon clicking the "Scrap" button, the code sends a ``request`` to the specified website, extracts news articles using ``BeautifulSoup``, and displays them in a Streamlit interface. Each news article is presented in a stylized box with a clickable link to the original article. The app provides a visual representation of the scraped news for the selected date.
