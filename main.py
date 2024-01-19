@@ -1,7 +1,6 @@
 import streamlit as st
 from bs4 import BeautifulSoup
 import requests
-from streamlit_card import card
 
 st.markdown(
     """
