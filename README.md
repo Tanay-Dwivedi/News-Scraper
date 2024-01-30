@@ -25,6 +25,16 @@ Firstly import the `streamlit`, `beautifulsoup4` and `requests` libraries throug
 
 -----
 
+## How to run:
+
+Download the zip file and extract the files. Then open your terminal or command prompt, navigate to the directory where the `main.py` python file is saved, and run the following command:
+
+```
+streamlit run main.py
+```
+
+-----
+
 ## Aim of the Project:
 
 1. **News Scraping:** Extract news articles from a specific website based on user-selected date parameters.
