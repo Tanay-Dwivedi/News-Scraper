@@ -2,7 +2,7 @@ import streamlit as st
 from bs4 import BeautifulSoup
 import requests
 
-sl.set_page_config(
+st.set_page_config(
     page_title="News Scraper",
     page_icon="🌐"
 )
