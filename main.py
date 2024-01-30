@@ -2,6 +2,11 @@ import streamlit as st
 from bs4 import BeautifulSoup
 import requests
 
+sl.set_page_config(
+    page_title="News Scraper",
+    page_icon="🌐"
+)
+
 st.markdown(
     """
 <h1 style='text-align:center'>News Scrapper</h1>
